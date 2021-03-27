@@ -21,7 +21,7 @@ function MyApp(props) {
   return (
     <div>
       <p>
-        This is useState...{props.mydata}..{count} ....{changedBy}{" "}
+        This IS useState...{props.mydata}..{count} ....{changedBy}{" "}
         {myStoreData && myStoreData.mydata}
       </p>
       <button onClick={handleMyButton}>PRESS</button>

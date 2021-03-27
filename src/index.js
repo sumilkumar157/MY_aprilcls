@@ -29,7 +29,7 @@ const routing = (
           <Link to="/Sunil">Sunil</Link>
         </li>
         <li>
-          <Link to="/MyFirstClassComponent">MyFirstClassComponent</Link>
+          <Link to="/MyFirstClassComponent"> MyFirstClassComponent</Link>
         </li>
       </ul>
       <Switch>

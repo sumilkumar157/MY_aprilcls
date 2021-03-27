@@ -20,7 +20,7 @@ class MyFirstClassComponent extends Component {
   render() {
     return (
       <div>
-        <h1>this is my first class component {this.state.counter}</h1>
+        <h1>This is my first class component {this.state.counter}</h1>
         <h1>this is my 2nd class component {this.state.ramesh}</h1>
         <button onClick={(e) => this.mybuttonclick(e)}>onclick</button>
       </div>

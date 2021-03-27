@@ -5,7 +5,7 @@ class MyCls extends Component {
   constructor() {
     super();
     this.state = {
-      name: "yes",
+      name: " yes",
       age: "dont know",
     };
   }
