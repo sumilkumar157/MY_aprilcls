@@ -46,7 +46,7 @@ function MyAppCls() {
   return (
     <div>
       <h1>
-        Material ui. ( {age} {BoxValue} ) {myStoreData && myStoreData.myData}
+        Material ui ( {age} {BoxValue} ) {myStoreData && myStoreData.myData}
       </h1>
       <FormControl variant="outlined" className={classes.formControl}>
         <InputLabel id="demo-simple-select-outlined-label">Age</InputLabel>

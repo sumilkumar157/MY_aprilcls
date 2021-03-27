@@ -19,7 +19,7 @@ class MyComponent extends Component {
   render() {
     return (
       <div>
-        <h1>This is my fisrt cls component {this.props.mydata}</h1>
+        <h1>Thisis my fisrt cls component {this.props.mydata}</h1>
         <p>{this.state.name}</p>
         <button onClick={(e) => this.myButtonClick(e)}>click here</button>
       </div>

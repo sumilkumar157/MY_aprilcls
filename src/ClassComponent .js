@@ -23,7 +23,7 @@ class MyCls extends Component {
           {this.state.name}
           {this.state.age}
         </h>
-        <button onClick={(e) => this.myButton(e)}>ya</button>
+        <button onClick={(e) => this.myButton(e)}>yes</button>
       </div>
     );
   }
