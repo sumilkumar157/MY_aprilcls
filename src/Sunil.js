@@ -5,35 +5,33 @@ class Sunil extends Component {
     super();
     this.state = {
       name: "akhil",
-      age: 22,
+      age: 21,
     };
   }
 
-  static getDerivedstSateFromProps(state){
-    console.log("this is derived state from props")
+  static getDerivedstSateFromProps(state) {
+    console.log("this is derived state from props");
     return null;
-  } 
-  componentDidMount(){
+  }
+  componentDidMount() {
     console.log("this is mount");
     return true;
-  
   }
-  shouldComponentUpdate(){
+  shouldComponentUpdate() {
     console.log("this is update");
     return true;
   }
-  componentWillUnmount(){
-    console.log("tihs is um mount")
+  componentWillUnmount() {
+    console.log("tihs is um mount");
     return true;
   }
 
-
   myButttonClick = (e) => {
-   e.preventDefault();
-   this.setState({
-       name:"l",
-       age:20
-   })
+    e.preventDefault();
+    this.setState({
+      name: "l",
+      age: 20,
+    });
   };
   render() {
     return (
@@ -41,7 +39,9 @@ class Sunil extends Component {
         <h1>life </h1>
 
         <p>{this.state.name}</p>
-        <button onClick={(e)=>this.myButttonClick(e)}>once click enough </button>
+        <button onClick={(e) => this.myButttonClick(e)}>
+          once click enough{" "}
+        </button>
       </div>
     );
   }
