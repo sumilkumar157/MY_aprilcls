@@ -8,7 +8,7 @@ import TextField from "@material-ui/core/TextField";
 import { useDispatch } from "react-redux";
 import { storeAction } from "./Actions";
 import { useSelector } from "react-redux";
-
+import axios from "axios";
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
@@ -42,6 +42,9 @@ function MyAppCls() {
   };
   const handleMyButton = () => {
     dispatch(storeAction);
+    axios.post(" https://api.mocki.io/v1/b043df5a").then((res) => {
+      console.log(res);
+    });
   };
   return (
     <div>

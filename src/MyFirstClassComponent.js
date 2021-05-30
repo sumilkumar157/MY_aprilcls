@@ -22,7 +22,7 @@ class MyFirstClassComponent extends Component {
       <div>
         <h1>This my first class component {this.state.counter}</h1>
         <h1>this is my 2nd class component {this.state.ramesh}</h1>
-        <button onClick={(e) => this.mybuttonclick(e)}>onclick</button>
+        <button onClick={(e) => this.mybuttonclick(e)}>onclic</button>
       </div>
     );
   }
